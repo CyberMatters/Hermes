@@ -3,6 +3,13 @@
 
 param([Parameter(Mandatory=$true)]$IOC_location,[Parameter(Mandatory=$true)]$target_folder,[string[]]$include_file_extension,[string[]]$exclude_file_extension)
 
+Clear-Host
+Write-Host "`n"
+Write-Host ******************************************`n
+Write-Host ***************** HERMES *****************`n
+Write-Host **** by Dany Giang aka CyberMatters ****`n
+Write-Host ******************************************`n
+
 $ioc_list = Import-Csv -Path $IOC_location -Delimiter ","
 
 $file_time = Get-Date -Format "ddMMyyyy-hhmmss"
