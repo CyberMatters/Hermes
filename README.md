@@ -27,6 +27,7 @@ Deploying Hermes could be done via:
 - deployment software
 - download from internal server
 - USB drive
+- etc
 
 ### Reactive Hunting
 
