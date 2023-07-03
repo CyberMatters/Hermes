@@ -10,7 +10,7 @@ Hermes the IOC scanner is a portable IOC scanner for Windows systems which is ea
 
 - No installation is needed
 	- The script just need PowerShell to run
-	- And Powershell is natively available on Windows assets :)
+	- And Powershell is natively available on Windows assets :wink:
 - No agent is needed
 
 Currently, the scanner looks for file hashes in the file system and can handle MD5, SHA1 and SHA256.
