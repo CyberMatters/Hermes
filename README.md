@@ -68,5 +68,5 @@ Use the switch `-exclude_file_extension`
 
 ### Output
 
-If there is a hit, then a CSV file is created and will contains useful information such as absolute path, hash, description
+If there is a hit, then a CSV file is created and will contain useful information such as absolute path, hash, description
 ![output](images/output.png)
