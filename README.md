@@ -14,11 +14,11 @@ Hermes the IOC scanner is a portable IOC scanner for Windows systems which is ea
 - No agent is needed
 
 Currently, the scanner looks for file hashes in the file system and can handle MD5, SHA1 and SHA256.
-The output is under CSV format for ease of use and ingestion in other platforms if needed.
+The output is under CSV format for ease of use and ingestion into other platforms if needed.
 
 ## Use cases
 
-Both small and big organizations can face difficulties when it comes to continuously monitoring assets in their network accross multiple environment.
+Both small and big organizations can face difficulties when it comes to continuously monitoring assets in their network across multiple environment.
 Unfortunately, incident response only starts when malicious activity is detected. Quickly scanning an asset may help identify threats and allow for the incident response process to start.
 Deploying Hermes could be done via:
 
@@ -31,8 +31,8 @@ Deploying Hermes could be done via:
 
 ### Reactive Hunting
 
-- The SecOps team has been contacted because some Windows servers are behaving strangely?
-- The account of "John Doe" is compromised, the SecOps team, wants to quickly analyze all the hosts zhich John has access to?
+- A SecOps team has been contacted because some Windows servers are behaving strangely?
+- The account of "John Doe" is compromised, the SecOps team, wants to quickly analyze all the hosts which John has access to?
 
 Hermes can embed the IOCs available in your threat intelligence platform and scan the server for presence of known threat.
 
@@ -40,7 +40,7 @@ Hermes can embed the IOCs available in your threat intelligence platform and sca
 
 A known source of intelligence warns the security community that APT123 is actively exploiting CVE-2023-1234.
 It happens that the vulnerability has been recently patched on an exposed server. 
-The SecOps wants to make sure there is no sign of APT123 on that server.
+A SecOps wants to make sure there is no sign of APT123 on that server.
 
 Hermes can embed the IOCs shared in the report/article and scan the server for the presence of the known threat.
 
